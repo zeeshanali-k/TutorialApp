@@ -1,6 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintStart_toEndOf="@id/img2"
+        app:layout_constraintEnd_toStartOf="@id/img3"
+        app:layout_constraintTop_toTopOf="parent"
+        />-->
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/test"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/img2"
+        />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/test"
+        android:id="@+id/img3"
+        android:scaleType="centerCrop"
+        app:shapeAppearanceOverlay="@style/RoundImage"
+        app:layout_constraintStart_toStartOf="@id/img2"
+        app:layout_constraintEnd_toEndOf="@id/img2"
+        app:layout_constraintBottom_toBottomOf="@id/img2"
+        app:layout_constraintTop_toBottomOf="@id/img2"
+        />
+
+    <!--
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/img3"
+        android:text="asdasdadasd"
+        android:gravity="start"
+        />
+    -->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
