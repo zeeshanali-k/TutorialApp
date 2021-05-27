@@ -43,7 +43,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         activityMainBinding.etv.setText("asdasda");
         activityMainBinding.button.setText("asdasda");
-
 //        editText = findViewById(R.id.etv);
 //        mySwitch = findViewById(R.id.switch1);
 //        mySwitch.isChecked();
