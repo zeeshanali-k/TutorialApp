@@ -27,6 +27,8 @@ public class SecondActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
 
+        getIntent().getExtras().getParcelable(Constants.OBJ_KEY);
+
         /*ViewGroup viewGroup=findViewById(R.id.scnd_root);
         View newView = LayoutInflater.from(this)
                 .inflate(R.layout.item, viewGroup,

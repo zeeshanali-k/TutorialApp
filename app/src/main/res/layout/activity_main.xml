@@ -8,6 +8,16 @@
     android:id="@+id/root"
     tools:context=".MainActivity">
 
+    <com.google.android.material.appbar.MaterialToolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/purple_700"
+        app:title="@string/app_name"
+        app:titleTextColor="@color/white"
+        android:id="@+id/toolbar"
+        />
+
     <EditText
         android:id="@+id/etv"
         android:layout_width="match_parent"

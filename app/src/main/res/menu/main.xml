@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/toast_menu_btn"
+        android:title="Show Toast"
+        android:icon="@mipmap/ic_launcher"
+        />
+
+    <item android:id="@+id/expander_menu"
+        android:title="New">
+        <menu>
+            <item
+                android:id="@+id/toast7_menu_btn"
+                android:title="Show Toast"
+                android:icon="@drawable/ic_baseline_1x_mobiledata_24"
+                />
+
+            <item
+                android:id="@+id/toast8_menu_btn"
+                android:title="Show Toast"
+                android:icon="@drawable/ic_baseline_1x_mobiledata_24"
+                />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/toast1_menu_btn"
+        android:title="Show Toast"
+        android:icon="@drawable/ic_baseline_1x_mobiledata_24"
+        />
+
+    <item
+        android:id="@+id/toast2_menu_btn"
+        android:title="Show Toast"
+        android:icon="@drawable/ic_baseline_1x_mobiledata_24"
+        />
+
+    <item
+        android:id="@+id/toast3_menu_btn"
+        android:title="Show Toast"
+        android:icon="@drawable/ic_twotone_3p_24"
+        />
+</menu>
